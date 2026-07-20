@@ -1,6 +1,6 @@
 <?php
 $brand     = "Cerita Web";
-$tagline   = "Jasa Website, AI & Maintenance Terpercaya";
+$tagline   = "Jasa Website, Integrasi AI & Maintenance Terpercaya";
 $wa_number = "62881036890504";
 $email     = "noreply.development1@gmail.com";
 $phone     = "62881036890504";
@@ -29,7 +29,7 @@ $solutions = [
     ],
     [
         "icon"=>"📞",
-        "title"=>"Support Cepat & Mudah Dihubungi",
+        "title"=>"Mudah Dihubungi",
         "desc"=>"Tim kami responsif dan siap membantu saat Anda membutuhkan bantuan atau konsultasi."
     ],
     [
@@ -79,13 +79,13 @@ $services = [
     [
         "icon"=>"🤖",
         "title"=>"Integrasi Fitur AI",
-        "desc"=>"Tambahkan chatbot, sistem rekomendasi, atau analitik cerdas untuk meningkatkan interaksi dan efisiensi bisnis Anda.",
+        "desc"=>"Tambahkan chatbot, sistem rekomendasi, atau integrasi AI model untuk meningkatkan interaksi dan efisiensi bisnis Anda.",
         "tag"=>"Baru"
     ],
     [
         "icon"=>"📊",
-        "title"=>"Dashboard & Analitik Data",
-        "desc"=>"Visualisasi data bisnis dalam bentuk dashboard interaktif lengkap dengan insight dan analisis untuk pengambilan keputusan.",
+        ""=>"Dashboard & Analitik Data",
+        "desc"=>"Visualisasi data bisnis dalam bentuk dashboard interaktif atau PowerBI.",
         "tag"=>""
     ],
 ];
@@ -140,9 +140,9 @@ $packages = [
 ];
 
 $why = [
-    ["icon"=>"🎯","title"=>"Kami Fokus di Sini","desc"=>"Bukan jasa serba bisa. Kami spesialis web — dan itu yang kami kerjakan setiap hari dengan serius."],
-    ["icon"=>"📋","title"=>"Nggak Ada yang Sembunyi","desc"=>"Semua pekerjaan kami catat dan kami laporkan. Anda tahu persis apa yang kami lakukan setiap bulan."],
-    ["icon"=>"🤝","title"=>"Kenalan Dulu, Bukan Closing","desc"=>"Kami lebih suka ngobrolin masalah Anda dulu sebelum nawarin apa-apa. Kalau cocok, baru lanjut."],
+    ["icon"=>"🎯",""=>"Kami Fokus di Sini","desc"=>"Bukan jasa serba bisa. Kami spesialis web — dan itu yang kami kerjakan setiap hari dengan serius."],
+    ["icon"=>"📋",""=>"Nggak Ada yang Sembunyi","desc"=>"Semua pekerjaan kami catat dan kami laporkan. Anda tahu persis apa yang kami lakukan setiap bulan."],
+    ["icon"=>"🤝",""=>"Kenalan Dulu, Bukan Closing","desc"=>"Kami lebih suka ngobrolin masalah Anda dulu sebelum nawarin apa-apa. Kalau cocok, baru lanjut."],
 ];
 
 $faqs = [
@@ -165,7 +165,7 @@ $testimonials = [
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?= $brand ?> – <?= $tagline ?></title>
+<><?= $brand ?> – <?= $tagline ?></title>
 <meta name="description" content="Cerita Web – jasa website dan maintenance terpercaya. Website aman, cepat, dan terawat. Mulai dari Rp 500rb/bulan.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Lora:ital@0;1&display=swap" rel="stylesheet">
@@ -870,7 +870,7 @@ footer{background:#1C1917;color:#D6D3D1;padding:62px 5% 26px;}
     <div class="h-blob h-blob2"></div>
     <div class="hero-inner">
         <div>
-            <div class="hero-badge">✨ Web & AI — Dikerjain Serius</div>
+            <div class="hero-badge">✨  Dikerjain Serius</div>
             <h1>Website Bisnis Anda <span class="hl">Nggak Perlu Ribet</span> — Kami yang Urus</h1>
             <p>Dari bikin website sampai perawatan rutin, semuanya kami tangani. Fokus aja kembangkan bisnis Anda, urusan teknis percayakan ke <?= $brand ?>.</p>
             <div class="hero-btns">
